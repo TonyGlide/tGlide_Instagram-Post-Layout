@@ -1,0 +1,79 @@
+* {
+
+    box-sizing: border-box;
+    margin: 0;
+    padding: 1;
+}
+p {
+    margin: 0;
+}
+body {
+    background-color: black;
+    font-family: 'Roboto', sans-serif;
+    margin: auto;
+    margin-top: 80px;
+    width: 500px;
+    height: 650px;
+    font-family: 'Roboto', sans-serif;
+}
+.header {
+    height: 70px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+}
+.img {
+    height: 330px;  
+  }   
+.share {
+    height: 50px;
+    background-color: rgb(255, 255, 255);
+    display: flex;
+}
+.content {
+    height: 200px;
+    background-color: rgb(255, 255, 255);
+}
+.content p#title {
+    padding-left: 20px;
+    padding-top: 30px;
+}
+.content p#paragraph {
+    padding-left: 20px;
+    padding-top: 5px;
+    padding-right: 30px;
+}
+#header i {
+    font-size: 30px;
+    color: black;
+    padding-left: 10px;
+    align-items: center;
+}
+.text {
+    padding-left: 10px;
+}
+.dots i{
+    display: flex;
+    padding-left: 330px;
+    font-size: 38px;
+}
+.like i {
+    font-size: 30px;
+    padding-left: 20px;
+    padding-top: 10px;
+}
+.comment i {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.submit i {
+    font-size: 30px;
+    padding-left: 5px;
+    padding-top: 10px;
+}
+.bookmark i {
+    font-size: 30px;
+    padding-left: 330px;
+    padding-top: 10px;
+}
